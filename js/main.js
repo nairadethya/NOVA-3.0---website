@@ -124,5 +124,12 @@
         $button.parent().find('input').val(newVal);
     });
 
+    //video popup
+    $(document).ready(function() {
+        $('.popup-youtube').magnificPopup({
+        type: 'iframe'
+      });
+    });
+
 })(jQuery);
 
